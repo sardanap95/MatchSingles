@@ -1,0 +1,26 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat feature",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lankesh16/chatapp.git"
+  },
+  "author": "Noufel Gouirhate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lankesh16/chatapp.git"
+  },
+  "homepage": "https://github.com/lankesh16/chatapp.git",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.3",
+    "socket.io": "^2.0.4"
+  }
+}
