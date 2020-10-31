@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier';
+    margin: 0px;
+}
+section#chatroom {
+    border: 5px inset #6590ec;
+    height: 50%;
+    width:40%;
+    overflow: auto;
+    margin:auto;
+}
+
+.message:nth-child(even) {
+    background-color: #81DAF5;
+}
+
+.message:nth-child(odd) {
+    background-color: #81BEF7;
+}
+
+#change_username {
+    
+    height:10%;
+    width:20%;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    
+    
+}
+
+#message {
+    margin:auto;
+    height:20px;
+    width:400px;
+    position: relative;
+    margin-top: 40px;
+}
+
+#send_message {
+    margin:auto;
+    height:20px;
+    width:200px;
+    position: relative;
+    margin-top: 40px;
+ 
+}
