@@ -13,13 +13,13 @@
 .card > h3 {
     position: absolute;
     bottom: 10px;
-    color: whitesmoke;
+    color:whitesmoke;
 }
 
 .tinderCards_cardContainer {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 1vh;
 }
 
 .swipe {
