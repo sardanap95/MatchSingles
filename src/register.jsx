@@ -1,5 +1,8 @@
 import React from "react";
-import loginImg from "../../final.png";
+import loginImg from "./final.png";
+
+
+
 
 export class Register extends React.Component {
   constructor(props) {
@@ -38,3 +41,4 @@ export class Register extends React.Component {
     );
   }
 }
+export default Register;

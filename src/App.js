@@ -5,7 +5,13 @@ import Chats from "./Chats";
 import SingleMatchesCards from "./SingleMatchesCards";
 import ChatScreen from "./ChatScreen";
 import './App.css';
+
 import SwipeButtons from './SwipeButtons';
+import Login from './Login';
+import Register from './Register';
+
+
+
 import db from './firebase';
 
 function App() {
@@ -29,6 +35,7 @@ function App() {
      <Router>
      {/* <Header /> */}
        <Switch>
+       
          <Route path="/chat/:person">
            <Header backButton="/chat" />
            <ChatScreen />
@@ -40,12 +47,15 @@ function App() {
            <ChatScreen />
            <h1>I am a chatpage</h1>
          </Route>
+         <Route exact path="/Login" component={Login}></Route>
+         <Route exact path="/Register" component={Register}></Route>
          <Route path="/">
            <Header />
            {/* <h1>I am a homepage</h1> */}
            <SingleMatchesCards />
            <SwipeButtons />
          </Route>
+         
        </Switch>
      </Router> 
      
