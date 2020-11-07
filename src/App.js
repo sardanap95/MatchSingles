@@ -9,9 +9,6 @@ import './App.css';
 import SwipeButtons from './SwipeButtons';
 import Login from './Login';
 import Register from './Register';
-
-
-
 import db from './firebase';
 
 function App() {
