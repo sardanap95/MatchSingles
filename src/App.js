@@ -39,7 +39,7 @@ function App() {
          <Route path="/chat/">
            <Header backButton="/" />
            <ChatScreen />
-           <h1>I am a chatpage</h1>
+           <h1></h1>
          </Route>
          <Route path="/">
            <Header />
@@ -53,5 +53,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
