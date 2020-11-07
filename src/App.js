@@ -5,7 +5,7 @@ import Chats from "./Chats";
 import SingleMatchesCards from "./SingleMatchesCards";
 import ChatScreen from "./ChatScreen";
 import './App.css';
-
+import { Login, Register } from "./index.js";
 import SwipeButtons from './SwipeButtons';
 import Login from './Login';
 import Register from './Register';
@@ -42,7 +42,7 @@ function App() {
          <Route path="/chat/">
            <Header backButton="/" />
            <ChatScreen />
-           <h1>I am a chatpage</h1>
+           <h1></h1>
          </Route>
          <Route exact path="/Login" component={Login}></Route>
          <Route exact path="/Register" component={Register}></Route>
@@ -59,5 +59,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

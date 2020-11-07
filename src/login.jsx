@@ -1,20 +1,5 @@
 import React from "react";
 import loginImg from "./final.png";
-// export class Login extends React.Component {
-//   constructor(props) {
-//     super(props);
-//   }
-//   render() {
-const Login = (props) => (
-  <div className="base-container" ref={props.containerRef}>
-    <div className="content">
-      <div className="image">
-        <img src={loginImg} alt="test"/>
-      </div>
-      <div className="form">
-        <div className="form-group">
-          <label htmlFor="username">Username</label>
-          <input type="text" name="username" placeholder="username" />
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>

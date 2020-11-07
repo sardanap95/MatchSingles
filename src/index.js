@@ -5,6 +5,10 @@ import './style.scss';
 import './App';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "./style.scss";
+
+export { Login } from "./login.jsx";
+export { Register } from "./register.jsx";
 
 
 
