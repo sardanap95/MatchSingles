@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "./style.scss";
+
+export { Login } from "./login.jsx";
+export { Register } from "./register.jsx";
 
 ReactDOM.render(
   // <React.StrictMode>

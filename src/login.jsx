@@ -1,6 +1,6 @@
 import React from "react";
-import loginImg from "../../final.png";
-import ocean from './ocean.mp4';
+import loginImg from "./final.png";
+
 
 
 

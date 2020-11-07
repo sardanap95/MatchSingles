@@ -5,6 +5,7 @@ import Chats from "./Chats";
 import SingleMatchesCards from "./SingleMatchesCards";
 import ChatScreen from "./ChatScreen";
 import './App.css';
+import { Login, Register } from "./index.js";
 import SwipeButtons from './SwipeButtons';
 import db from './firebase';
 
