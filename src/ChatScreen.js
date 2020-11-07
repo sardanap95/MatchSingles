@@ -4,48 +4,39 @@ import Avatar from "@material-ui/core/Avatar";
 
 
 function ChatScreen() {
-    const [messages, setMessage] = useState([
-        {
-            name : 'Ellen',
-            image : 'https://img.etimg.com/thumb/width-1200,height-900,imgsize-121641,resizemode-1,msid-63345364/magazines/panache/ranveer-singh-an-actor-who-made-his-own-luck-and-rose-due-to-his-talent-not-his-legacy.jpg',
-            message : 'Hello'
-        },
-        {
-            name : 'Anuj',
-            image : 'https://img.etimg.com/thumb/width-1200,height-900,imgsize-121641,resizemode-1,msid-63345364/magazines/panache/ranveer-singh-an-actor-who-made-his-own-luck-and-rose-due-to-his-talent-not-his-legacy.jpg',
-            message : 'How it going ?' 
-        },
-    ]);
+   
 
     return (
         <div className="chatScreen">
-            <p className="chatScreen__timeStamp">
-                You Matched..!
-            </p>
-            {messages.map((message) => (
-                message.name ? (
-                    <div className="chatScreen__message">
-                <Avatar
-                className="chatScreen__image"
-                alt={message.name}
-                src={message.image}
-                />
-                <p className="chatScreen__text">
-                    {message.message}
-                </p>
-            </div>
+          
+    <section id="chatroom">
+      <section id="feedback"></section>
+    </section>
 
-                ) : (
-                    <div className="chatScreen__message">
-                <p className="chatScreen__textUser">
-                    {message.message}
-                </p>
-            </div>
-                )
-            
-            ))}
+    <ul id="messages"></ul>
+            <input id="textbox" type="text"></input>
+            <button id="button">Send</button>
         </div>
+
+        
+
+        
+ 
+
     );
+}
+
+function chatspace() {
+  var messages = document.getElementById("messages");
+  var textbox = document.getElementById("textbox");
+  var button = document.getElementById("button");
+  
+  button.addEventListener ("click", function(){
+      var newMessage= document.createElement("ul");
+      newMessage.innerHTML=textbox.value;
+      messages.appendChild (newMessage);
+      textbox.value="";
+  });
 }
 
 export default ChatScreen;

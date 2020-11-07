@@ -5,6 +5,7 @@ import Chats from "./Chats";
 import SingleMatchesCards from "./SingleMatchesCards";
 import ChatScreen from "./ChatScreen";
 import './App.css';
+import { Login, Register } from "./index.js";
 import SwipeButtons from './SwipeButtons';
 import db from './firebase';
 
@@ -38,7 +39,7 @@ function App() {
          <Route path="/chat/">
            <Header backButton="/" />
            <ChatScreen />
-           <h1>I am a chatpage</h1>
+           <h1></h1>
          </Route>
          <Route path="/">
            <Header />
@@ -52,5 +53,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
