@@ -1,28 +1,53 @@
-.chatScreen__message{
-    display: flex;
+
+
+
+.chatroom {
+    box-sizing: border-box;
+    width: 1050px;
+    height: 1050px;
+}
+
+
+
+
+
+section#chatroom {
+    border: 5px inset #6590ec;
+    height: 500px;
+    width:500px;
+    overflow: auto;
+    margin:auto;
+}
+
+.message:nth-child(even) {
+    background-color: #81DAF5;
+}
+
+.message:nth-child(odd) {
+    background-color: #81BEF7;
+}
+
+
+
+#message {
+    height:20px;
+    width:400px;
+    margin-top: 40px;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    display: flex;
+    
 }
 
-.chatScreen__text {
-    margin-left: 10px;
-    background-color: lightgray;
-    padding: 15px;
-    border-radius: 20px;
-}
-
-.chatScreen__timeStamp {
-    text-align: center;
-    padding: 20px;
-    color: gray;
-}
-
-.chatScreen__textUser {
-    margin-left: auto;
-    background-color: indianred;
-    padding: 15px;
-    border-radius: 20px;
-    color: ivory;
+#send_message {
+    height:20px;
+    width:200px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+ 
 }
 
 
