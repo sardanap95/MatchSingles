@@ -1,0 +1,32 @@
+[
+    {
+        "Age": "24",
+        "url": "https://media.wired.com/photos/5d960eba01e4a4000826137c/master/pass/Culture_Monitor_WillSmith-465783654.jpg",
+        "name": "Will Smith",
+        "Occupation": "Doctor"
+    },
+    {
+        "Age": "30",
+        "name": "Ranbir Singh",
+        "Ocupation": "Teacher",
+        "url": "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/12/20/dc70c89e-20b7-11ea-acfb-1fd6c5cf20a4_image_hires_145646.jpg?itok=4FFOzu61&v=1576825010"
+    },
+    {
+        "url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-121641,resizemode-1,msid-63345364/magazines/panache/ranveer-singh-an-actor-who-made-his-own-luck-and-rose-due-to-his-talent-not-his-legacy.jpg",
+        "Age": "29",
+        "name": "Messi"
+    },
+    {
+        "Age": "28",
+        "name": "Rajesh Khanna",
+        "url": "https://m.hindustantimes.com/rf/image_size_640x362/HT/p1/2012/07/18/Incoming/Pictures/891147_Wallpaper2.jpg"
+    },
+    {
+        "url": "https://m.media-amazon.com/images/M/MV5BMTk1MjM3NTU5M15BMl5BanBnXkFtZTcwMTMyMjAyMg@@._V1_UY1200_CR142,0,630,1200_AL_.jpg",
+        "name": "Tom Cruise"
+    },
+    {
+        "name": "Kapil Sharma",
+        "url": "https://static.toiimg.com/thumb/msid-77022705,imgsize-232801,width-800,height-600,resizemode-75/77022705.jpg"
+    }
+]

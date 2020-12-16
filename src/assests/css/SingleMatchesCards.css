@@ -1,0 +1,89 @@
+.swipe {
+  position: absolute;
+}
+
+.tinderCards_cardContainer {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.tinder-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25rem;
+  height: 30rem;
+  background-color: #5f4bb6;
+  border-radius: 1.5rem;
+  box-shadow: 5px 10px 8px 10px #0000001a;
+}
+
+.person-img-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+}
+.person-info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  bottom: 0px;
+  box-shadow: 0px -100px 100px #282828 inset;
+  border-radius: 1.5rem;
+}
+
+.person-title,
+.person-subtitle {
+  margin: 0 1rem 0 1rem;
+  color: #c4ebc8;
+}
+
+.person-title {
+  display: flex;
+  justify-content: space-between;
+}
+.person-subtitle {
+  margin-bottom: 1rem;
+}
+
+/* Swipe Buttons */
+.swipeButtons {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root {
+  background-color: white;
+}
+.swipeButtons .MuiIconButton-root:hover {
+  background-color: #86a5d9;
+}
+
+.swipeButtons__repeat {
+  color: #c4ebc8 !important;
+}
+.swipeButtons__heart {
+  color: red !important;
+}
+.swipeButtons__lightning {
+  color: #5f4bb6 !important;
+}

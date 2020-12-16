@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #5f4bb6;
+  padding: 0.3rem;
+}
+
+.header__logo {
+  max-width: 60%;
+}
+
+.brand {
+  display: flex;
+  place-content: center;
+
+  place-content: center;
+}
